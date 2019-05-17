@@ -1,0 +1,9 @@
+#!/bin/bash
+infinite()
+{
+while ((1 < 2))
+do
+   echo "Ctrl + C to quit"
+done
+}
+infinite
